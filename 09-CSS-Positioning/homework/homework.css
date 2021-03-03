@@ -1,4 +1,4 @@
-/*
+﻿/*
 Lección 3: Tarea de posicionamiento con CSS. Todo el trabajo debe hacerse en este archivo, por lo que si estás tocando cualquier otro
 archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 */
@@ -7,6 +7,9 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
+	display: block;
+	text-align: center
+
 
 }
 
@@ -15,24 +18,41 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Acá va tu código */
 
+#ejercicioDos {
+	visibility: hidden
+}
+
 
 
 /* Ejercicio 3: */
 
 /* Acá va tu código */
-
+#ejercicioTres {
+position : relative
+left : 200px; top:100px; 
+}
 
 
 /* Ejercicio 4: */
 
 /* Acá va tu código */
 
-
+#ejercicioCuatro{
+position : fixed; 
+right: 0 px; top : 0 px 
+}
 
 /* Ejercicio 5: */
 
 /* Acá va tu código */
-
+#ejerciciocinco{
+display: flex;
+  justify-content:center
 
 
 /* Ejercicio 6. */
+#ejerciciocinco{
+display: flex;
+flex-direction : row-reverse;
+  justify-content:center
+
